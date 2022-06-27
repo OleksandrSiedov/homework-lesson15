@@ -35,8 +35,6 @@ header {
   color: #16133D;
 }
 
-
-
 h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-style: normal;
@@ -60,11 +58,6 @@ h3 {
 }
 
 /*----- SERVICE -----*/
-
-/*.test {
-  height: 100vh;
-  background-color: red;
-}*/
 
 .service-container {
   width: 1170px;
