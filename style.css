@@ -35,12 +35,7 @@ header {
   color: #16133D;
 }
 
-.service-container {
-  width: 1170px;
-  height: 461px;
-  margin: 100px auto;
-  /*не уверен, что тут стоит такой margin использовать*/
-}
+
 
 h2 {
   font-family: 'Nunito Sans', sans-serif;
@@ -66,10 +61,21 @@ h3 {
 
 /*----- SERVICE -----*/
 
+/*.test {
+  height: 100vh;
+  background-color: red;
+}*/
+
+.service-container {
+  width: 1170px;
+  height: 461px;
+  margin: 100px auto;
+  /*не уверен, что тут стоит такой margin использовать*/
+}
+
 .service__cards {
   display: flex;
   justify-content: space-between;
-
 }
 
 .service__card {
@@ -94,11 +100,33 @@ h3 {
   justify-content: center;
 }
 
+.service__card:hover .service__card-icon {
+  border-color: #3DB370;
+}
+
 .service__card-icon svg {
   display: inline-block;
 }
 
+/* changin color of icons on hover */
 
+.service__card:hover [fill="#D1E7FF"] {
+  fill:#E1F4F5;
+}
+
+.service__card:hover [fill="#007FFC"] {
+  fill: #52C29D;
+}
+
+.service__card:hover [fill="#B9DCFF"] {
+  fill: #CAEFF2;
+}
+
+.service__card:hover [fill="#E8F3FF"] {
+  fill: #F4FEFF;
+}
+
+/* --------------------------------- */
 
 .service__card-title {
   font-family: 'Roboto', sans-serif;
