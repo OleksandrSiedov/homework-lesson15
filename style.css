@@ -15,7 +15,7 @@ header {
 
 .header-container {
   width: 1170px;
-  margin: 0 auto;
+  margin: 22px auto;
 }
 
 .logo {
@@ -52,17 +52,23 @@ h3 {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  color: #7690A8;
+  color: #7bafe0;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 
 /*----- SERVICE -----*/
+.service {
+height: calc( 100vh - 80px - 193px );
+min-height: 669px;
+display: flex;
+align-items: center;
+}
 
 .service-container {
   width: 1170px;
-  height: 461px;
-  margin: 100px auto;
+  height: 469px;
+  margin: 0 auto;
   /*не уверен, что тут стоит такой margin использовать*/
 }
 
@@ -192,5 +198,11 @@ h3 {
 
 .social-icon:hover path {
   fill: #3DB370;
+}
+
+.social-sprite {
+  fill: #16133d;
+  width: 20px;
+  height: 20px;
 }
 
